@@ -1,54 +1,31 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Pizza Restaurant Ratings</title>
+  <title>Stacked Images</title>
   <style>
-    body {
-      font-family: sans-serif;
-      text-align: center;
+    .image-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
-    table {
-      margin: 20px auto;
-      border-collapse: collapse;
-    }
-    th, td {
-      border: 1px solid #ddd;
-      padding: 8px;
+    img {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 10px; 
     }
   </style>
 </head>
 <body>
 
-  <h1>Pizza Restaurant Ratings</h1>
-
-  <table>
-    <tr>
-      <th>Rating</th>
-      <th>Number of Ratings</th>
-    </tr>
-    <tr>
-      <td>5 Stars</td>
-      <td>2</td> 
-    </tr>
-    <tr>
-      <td>4 Stars</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>3 Stars</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <td>2 Stars</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <td>1 Star</td>
-      <td>1</td>
-    </tr>
-  </table>
-
-  <p>Average Rating: 3.86 Stars</p>
+  <div class="image-container">
+    <img src="pizza_judge_sheet_Mac.jpg" alt="Amy">
+    <img src="pizza_judge_sheet_Cali.jpg" alt="Cali">
+    <img src="pizza_judge_sheet_Morgan.jpg" alt="Morgan">
+    <img src="pizza_judge_sheet_Brady.jpg" alt="Brady">
+    <img src="pizza_judge_sheet_Ethan.jpg" alt="Ethan">
+    <img src="pizza_judge_sheet_Amy.jpg" alt="Amy">
+    <img src="pizza_judge_sheet_Trevor.jpg" alt="Trevor">
+  </div>
 
 </body>
 </html>
