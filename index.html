@@ -1,11 +1,31 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Hello, World!</title>
+  <title>Stacked Images</title>
+  <style>
+    .image-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 10px; 
+    }
+  </style>
 </head>
 <body>
 
-  <h1>Hello, World!</h1>
+  <div class="image-container">
+    <img src="pizza_judge_sheet_mac.jpg" alt="Mac">
+    <img src="pizza_judge_sheet_cali.jpg" alt="Cali">
+    <img src="pizza_judge_sheet_morgan.jpg" alt="Morgan">
+    <img src="pizza_judge_sheet_brady.jpg" alt="Brady">
+    <img src="pizza_judge_sheet_ethan.jpg" alt="Ethan">
+    <img src="pizza_judge_sheet_amy.jpg" alt="Amy">
+    <img src="pizza_judge_sheet_trevor.jpg" alt="Trevor">
+  </div>
 
 </body>
 </html>
